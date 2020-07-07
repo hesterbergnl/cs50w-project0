@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google Search</title>
+        <title>Google</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <div>
-            <a href="image.html"> Image </a>
+        <div id="nav-links">
+            <a href="image.html"> Images </a>
             <a href="advanced.html"> Advanced </a>
         </div>
 
-        <div>
+        <div id="search">
+            <img src="google.png" alt="logo">
             <form action="https://google.com/search">
                 <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            	<input type="submit" name="btnI" value="I'm Feeling Lucky">
+                <div id="submit">
+                    <input type="submit" value="Google Search">
+                    <button name="btnI" type="submit">I'm Feeling Lucky</button>
+                </div>
             </form>
         </div>
     </body>

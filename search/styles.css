@@ -1,3 +1,80 @@
-div a {
+#nav-links {
 	text-align: right;
+}
+
+#search {
+	text-align: center;
+	margin: 100px auto 100px auto;
+}
+
+img {
+	width: 300px;
+}
+
+a {
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+[type=text] {
+	border-radius: 50px;
+	width:400px;
+	padding:2px;
+	height: 25px;
+	border-style: solid;
+}
+
+[type=text]:hover {
+	border-width: medium;
+}
+.adv {
+	border-radius: 0px;
+}
+
+#adv-btn {
+	background-color: blue;
+	color: white;
+	position: relative;
+	left: 300px;
+}
+
+[type=submit] {
+	margin-top: 20px;
+	border-radius: 5px;
+	padding: 5px;
+	border-style: solid;
+	color: grey;
+}
+
+[type=submit]:hover {
+	color: black;
+	border-color: black;
+	border-width: thin;
+}
+
+table [type=text]:focus {
+	border-color: lightblue;
+}
+
+table [type=text] {
+	border-width: thin;
+}
+
+table [type=text]:hover {
+	border-width: thin;
+}
+
+td {
+	padding-right: 10px;
+}
+
+#adv-name {
+	color: red;
+	font-size: 30px;
+	padding-bottom: 50px;
+}
+
+body {
+	font-family: arial;
 }
