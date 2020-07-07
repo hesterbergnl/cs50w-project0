@@ -39,6 +39,11 @@ a {
 	left: 300px;
 }
 
+#adv-btn:hover {
+	background-color: lightblue;
+	border-color: lightblue;
+}
+
 [type=submit] {
 	margin-top: 20px;
 	border-radius: 5px;
@@ -77,4 +82,9 @@ td {
 
 body {
 	font-family: arial;
+}
+
+#adv-intro {
+	padding-left: 2px;
+	font-size: 20px;
 }
